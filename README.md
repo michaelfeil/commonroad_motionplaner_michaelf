@@ -17,11 +17,11 @@ Important note:
 |Property  |    number of scenarios|
 | ------------- |:-------------:|
 |Total number of scenarios:  	  |      2077|
-|Solution found:               	|      1461|
+|Solution found:               	|      1588|
 |Solution found but invalid:   	|         6|
 |Solution not found:           	|        70|
 |Exception occurred:            |         2|
-|Time out:                     	|       532|
+|Time out:                     	|       407|
 
 ## Answers to Infrequently asked questions (IAQ):
 
