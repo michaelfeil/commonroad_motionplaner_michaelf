@@ -35,5 +35,6 @@ Important note:
 
 For the [USA_US101-21_1_T-1](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) the *relevant* part (from start of the ego vehicle to goal) of the reference path. Since the interval of time_steps of arrival is 70-80, the relevant reference path should be completed in 75 steps. Given the closest position towards the reference path and time_step at any giiven time of the ego vehicle, an estimate of the average speed needed and the desired subsection of the reference path that should be completed at this time_step, can be returned.
 
-![route planner on USA_US101-21_1_T-1(https://github.com/michaelfeil/commonroad_motionplaner_michaelf/pngs/USA_US101-21_1_T-1_route.png "important part of route of USA_US101-21_1_T-1")
+![route planner on USA_US101-21_1_T-1](https://github.com/michaelfeil/commonroad_motionplaner_michaelf/pngs/USA_US101-21_1_T-1_route.png " part of route planner from start to finish of USA_US101-21_1_T-1")
+
 
