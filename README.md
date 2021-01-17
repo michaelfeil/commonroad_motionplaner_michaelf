@@ -25,11 +25,12 @@ Important note:
 
 ## Answers to Infrequently asked questions (IAQ):
 
+- For ideas, please feel free to contact me (contact details on Github or [Website](https://michaelfeil.github.io) )
 - Obviously no weights are tuned in this blueprint 
 - no szenarios types are distinguished. 
 (e.g. in a scenario without goal, a reference path that shows a way to the goal is not as helpful as with goal)
 - if makes sense to use a different (or even multiple) motion planner sets)
-- For ideas, please feel free to contact me (contact details on Github or [Website](https://michaelfeil.github.io) )
+- I do not plan to provide my non vanilla/blueprint version in the future.
 
 ## Visualizaton
 
