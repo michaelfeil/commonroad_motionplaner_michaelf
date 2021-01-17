@@ -29,4 +29,4 @@ Important note:
 - no szenarios types are distinguished. \n
 (e.g. in a scenario without goal, a reference path that shows a way to the goal is not as helpful as with goal)
 - if makes sense to use a different (or even multiple) motion planner sets)
-- For ideas, please feel free to contact me (contact details on Github or [Website](michaelfeil.github.io) )
+- For ideas, please feel free to contact me (contact details on Github or [Website](https://michaelfeil.github.io) )
