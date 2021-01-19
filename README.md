@@ -2,16 +2,14 @@
 
 Important notes: 
 - this code provides a motion planner as in  [commonroad search repository](https://gitlab.lrz.de/tum-cps/commonroad-search/) (which is licenced under GNU General Public License v3.0.)
-- see the student_example.py in the [commonroad_search repo](https://gitlab.lrz.de/tum-cps/commonroad-search/-/blob/master/SMP/motion_planner/search_algorithms/student_example.py)
-- if are a Student at TU Munich you use this in the TUM Challenge in the future: Techniques in Artificial Intelligence (IN2062), it might be considered plagiatism. no liablity.
-- also if you use this search heueristics in your own tesla, also no liablity! :) (details see GNU General Public License v3.0.)
+- to *run the code*, pull the [commonroad_search repo](https://gitlab.lrz.de/tum-cps/commonroad-search/-/blob/master/SMP/motion_planner/search_algorithms/student_example.py) and replace the student_example.py. Also follow the instructions of the search repo on how to set up the docker. 
+- in case you are a student at TU Munich and participate in TUM Challenge of Techniques in Artificial Intelligence (IN2062), it might be considered plagiatism if you submit parts of this code. no liablity.
 
 ## Performance:
 - evaluation on the [2020a Version of Commonroad](https://gitlab.lrz.de/tum-cps/commonroad-scenarios) (2077 scenarios total)
 - evaluation with BMW320i, KS2, SM1 and a [default motion primitves set] (https://gitlab.lrz.de/tum-cps/commonroad-search/-/tree/master/SMP/maneuver_automaton/primitives) ```V_0.0_20.0_Vstep_4.0_SA_-1.066_1.066_SAstep_0.18_T_0.5_Model_BMW_320i```
 - Batch_processing: timelimit set to 30 seconds, 12 Threads (Ryzen 5600x, 32gb RAM)
-- only uses the [Baseline Solution](./student-baseline-michaelf.py). No weights are tuned (set to 1), this is the minimal approach!
-
+- only uses the [Baseline Solution](./student-baseline-michaelf.py). No weights are tuned (set to 1), this is the minimal approach and can easily be improved.
 
 |Property  |    number of scenarios|
 | ------------- |:-------------:|
@@ -29,7 +27,7 @@ For the [USA_US101-21_1_T-1](https://commonroad.in.tum.de/submissions/ranking/KS
 
 Extracted part of reference_route from start to finish of the USA_US101-21_1_T-1 Scenario:
 
-<img src="/png/USA_US101-21_1_T-1_route.png" width="450" height="450" />
+![Image of the USA_US101 Planned Route.](/png/USA_US101-21_1_T-1_route.png "USA_US101-21_1_T-1route")
 Now we "only" need to guide the search along the reference path in time and in space. This how the solution looks in Action. 
 
 ![USA_US101 GIF](/png/USA_US101-21_1_T-1demo.gif "USA_US101-21_1_T-1demo.gif")
