@@ -40,7 +40,7 @@ Extracted part of reference_route from start to finish of the USA_US101-21_1_T-1
 <img src="/png/USA_US101-21_1_T-1_route.png" width="450" height="450" />
 And this how it looks in Action. 
 
-<img src="/png/USA_US101-21_1_T-1.xgif" width="450" height="450" />
+<img src="/png/USA_US101-21_1_T-1.gif" width="450" height="450" />
 
 (until 18.Jan 2020, 2 out of ~300 users found a solution for this [scenario](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) )
 
