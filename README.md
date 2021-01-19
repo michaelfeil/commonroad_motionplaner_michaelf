@@ -43,7 +43,7 @@ For the [USA_US101-21_1_T-1](https://commonroad.in.tum.de/submissions/ranking/KS
 If you plan to follow the reference path, you might require a denser set of motion primitives to solve some scenarios.
 There are also effects on changing the duration of the motion primitive on the turning radius. 
 
-motion primitive with a duration of 0.5 seconds / 5 steps in commonroad Axes in m/0.5s:
-![motion_primitves_0_5_second](/png/motion_primitves_0_5_second.png "motion primitive with a duration of 0.5 seconds / 5 steps in commonroad Axes in m/0.5s")
-motion primitive with a duration of 1 second / 10 steps in commonroad. Axes in m/1s:
-![motion_primitves_1second.png](/png/motion_primitves_1second.png "motion primitive with a duration of 1 second / 10 steps in commonroad. Axes in m/1s")
+motion primitive with a duration of 0.5 seconds / 5 steps in commonroad Axes in m/0.5s: (avg. branching factor 9.35)
+![motion_primitves_0_5_second.jpg](/png/motion_primitves_0_5_second.jpg "motion primitive with a duration of 0.5 seconds / 5 steps in commonroad Axes in m/0.5s")
+motion primitive with a duration of 1 second / 10 steps in commonroad. Axes in m/1s: (avg. branching factor 23.20)
+![motion_primitves_1_second.jpg](/png/motion_primitves_1_second.jpg "motion primitive with a duration of 1 second / 10 steps in commonroad. Axes in m/1s")
