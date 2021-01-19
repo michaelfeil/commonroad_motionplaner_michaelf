@@ -1,4 +1,4 @@
-# A motion planner blueprint for for [Commonroad](https://commonroad.in.tum.de/) 
+# A motion planner blueprint for  [Commonroad](https://commonroad.in.tum.de/) 
 
 Important notes: 
 - this code provides a motion planner as in  [commonroad search repository](https://gitlab.lrz.de/tum-cps/commonroad-search/) (which is licenced under GNU General Public License v3.0.)
@@ -36,7 +36,7 @@ Now we "only" need to guide the search along the reference path in time and in s
 ![USA_US101 GIF](/png/USA_US101-21_1_T-1demo.gif "USA_US101-21_1_T-1demo.gif")
 
 
-(until 18.Jan 2020, 2 out of ~300 users found a solution for this [scenario](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) )
+(until 18.Jan 2020, 3 out of ~300 users found a solution for this [scenario](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) )
 
 ## Motion Primitives
 
