@@ -3,9 +3,8 @@
 Important notes: 
 - this code provides a motion planner as in  [commonroad search repository](https://gitlab.lrz.de/tum-cps/commonroad-search/) (which is licenced under GNU General Public License v3.0.)
 - see the student_example.py in the [commonroad_search repo](https://gitlab.lrz.de/tum-cps/commonroad-search/-/blob/master/SMP/motion_planner/search_algorithms/student_example.py)
-
-- if you use this in the TUM Challenge: Techniques in Artificial Intelligence (IN2062), it might be considered plagiatism. no liablity.
-- also if you use this search heueristik in your own tesla, no liablity. (see GNU General Public License v3.0.)
+- if are a Student at TU Munich you use this in the TUM Challenge in the future: Techniques in Artificial Intelligence (IN2062), it might be considered plagiatism. no liablity.
+- also if you use this search heueristics in your own tesla, also no liablity! :) (details see GNU General Public License v3.0.)
 
 ## Performance:
 - evaluation on the [2020a Version of Commonroad](https://gitlab.lrz.de/tum-cps/commonroad-scenarios) (2077 scenarios total)
@@ -26,7 +25,7 @@ Important notes:
 
 ## Visualizaton
 
-For the [USA_US101-21_1_T-1](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) the *relevant* part (from start of the ego vehicle to goal) of the reference path. Since the interval of time_steps of arrival is 70-80, the relevant reference path should be completed in 75 steps. Given the closest position towards the reference path and time_step at any giiven time of the ego vehicle, an estimate of the average speed needed and the desired subsection of the reference path that should be completed at this time_step, can be returned.
+For the [USA_US101-21_1_T-1](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) scanario, we extract the *relevant* part (from start of the ego vehicle to goal) of the reference path. Since the interval of time_steps of arrival is 70-80, it is a good assumption the relevant reference path can  be completed in ~75 steps. Given the closest position towards the reference path and time_step at any giiven time of the ego vehicle, an estimate of the average speed needed and the progess of the reference path that should be achieved at this time_step, can be returned. Also distance and orientation towards the reference path help to guide the low level search. 
 
 Extracted part of reference_route from start to finish of the USA_US101-21_1_T-1 Scenario:
 
@@ -41,7 +40,7 @@ Now we "only" need to guide the search along the reference path in time and in s
 ## Motion Primitives
 
 If you plan to follow the reference path, you might require a denser set of motion primitives to solve some scenarios.
-There are also effects on changing the duration of the motion primitive on the turning radius. 
+There are also effects on changing the duration of the motion primitive on the turning radius, as shown below. 
 
 motion primitive with a duration of 0.5 seconds / 5 steps in commonroad Axes in m/0.5s: (avg. branching factor 9.35)
 ![motion_primitves_0_5_second.jpg](/png/motion_primitves_0_5_second.jpg "motion primitive with a duration of 0.5 seconds / 5 steps in commonroad Axes in m/0.5s")
@@ -64,7 +63,7 @@ KS2-SM1-ZAM_Zip-1_16_T-1-2020a
 
 ## Answers to Infrequently asked questions (IAQ):
 
-- For ideas, please feel free to contact me (contact details on Github or [Website](https://michaelfeil.github.io) )
+- For ideas, please feel free to contact me or create an issue. (contact details on my [github.io](https://michaelfeil.github.io) )
 - Obviously no weights are tuned in this blueprint 
 - no szenarios types are distinguished. 
 (e.g. in a scenario without goal, a reference path that shows a way to the goal is not as helpful as with goal)
