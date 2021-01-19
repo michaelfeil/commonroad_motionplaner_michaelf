@@ -35,8 +35,14 @@ Important notes:
 
 For the [USA_US101-21_1_T-1](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) the *relevant* part (from start of the ego vehicle to goal) of the reference path. Since the interval of time_steps of arrival is 70-80, the relevant reference path should be completed in 75 steps. Given the closest position towards the reference path and time_step at any giiven time of the ego vehicle, an estimate of the average speed needed and the desired subsection of the reference path that should be completed at this time_step, can be returned.
 
-![route planner on USA_US101-21_1_T-1](/png/USA_US101-21_1_T-1_route.png " part of route planner from start to finish of USA_US101-21_1_T-1")
+Extracted part of reference_route from start to finish of the USA_US101-21_1_T-1 Scenario:
 
+<img src="/png/USA_US101-21_1_T-1_route.png" width="650" height="650" />
+And this how it looks in Action. 
+
+<img src="/png/USA_US101-21_1_T-1.gif" width="650" height="650" />
+
+(until 18.Jan 2020, 2 out of ~300 users found a solution for this [scenario](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) )
 
 ## Motion Primitives
 
@@ -47,3 +53,17 @@ motion primitive with a duration of 0.5 seconds / 5 steps in commonroad Axes in 
 ![motion_primitves_0_5_second.jpg](/png/motion_primitves_0_5_second.jpg "motion primitive with a duration of 0.5 seconds / 5 steps in commonroad Axes in m/0.5s")
 motion primitive with a duration of 1 second / 10 steps in commonroad. Axes in m/1s: (avg. branching factor 23.20)
 ![motion_primitves_1_second.jpg](/png/motion_primitves_1_second.jpg "motion primitive with a duration of 1 second / 10 steps in commonroad. Axes in m/1s")
+
+## A couple of generated solutions:
+
+USA_US101-2_1_T-1:
+
+![](/png/USA_US101-2_1_T-1.gif  " USA_US101-2_1_T-1.gif")
+
+USA_Lanker-2_10_T-1:
+
+![](/png/USA_Lanker-2_10_T-1.gif  " USA_Lanker-2_10_T-1.gif")
+
+KS2-SM1-ZAM_Zip-1_16_T-1-2020a
+
+![](/png/KS2-SM1-ZAM_Zip-1_16_T-1-2020a.gif  " KS2-SM1-ZAM_Zip-1_16_T-1-2020a.gif")
