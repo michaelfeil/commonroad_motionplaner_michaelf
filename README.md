@@ -22,14 +22,6 @@ Important notes:
 |Exception occurred:            |         2|
 |Time out:                     	|       407|
 
-## Answers to Infrequently asked questions (IAQ):
-
-- For ideas, please feel free to contact me (contact details on Github or [Website](https://michaelfeil.github.io) )
-- Obviously no weights are tuned in this blueprint 
-- no szenarios types are distinguished. 
-(e.g. in a scenario without goal, a reference path that shows a way to the goal is not as helpful as with goal)
-- if makes sense to use a different (or even multiple) motion planner sets)
-- I do not plan to provide my non vanilla/blueprint version in the future.
 
 ## Visualizaton
 
@@ -38,9 +30,10 @@ For the [USA_US101-21_1_T-1](https://commonroad.in.tum.de/submissions/ranking/KS
 Extracted part of reference_route from start to finish of the USA_US101-21_1_T-1 Scenario:
 
 <img src="/png/USA_US101-21_1_T-1_route.png" width="450" height="450" />
-And this how it looks in Action. 
+Now we "only" need to guide the search along the reference path in time and in space. This how the solution looks in Action. 
 
-<img src="/png/USA_US101-21_1_T-1demo.gif" width="450" height="450" />
+![](/png//png/USA_US101-21_1_T-1demo.gif "USA_US101-21_1_T-1demo.gif")
+
 
 (until 18.Jan 2020, 2 out of ~300 users found a solution for this [scenario](https://commonroad.in.tum.de/submissions/ranking/KS2:SM1:USA_US101-21_1_T-1:2020a) )
 
@@ -67,3 +60,11 @@ USA_Lanker-2_10_T-1:
 KS2-SM1-ZAM_Zip-1_16_T-1-2020a
 
 ![](/png/KS2-SM1-ZAM_Zip-1_16_T-1-2020a.gif  " KS2-SM1-ZAM_Zip-1_16_T-1-2020a.gif")
+
+## Answers to Infrequently asked questions (IAQ):
+
+- For ideas, please feel free to contact me (contact details on Github or [Website](https://michaelfeil.github.io) )
+- Obviously no weights are tuned in this blueprint 
+- no szenarios types are distinguished. 
+(e.g. in a scenario without goal, a reference path that shows a way to the goal is not as helpful as with goal)
+- if makes sense to use a different (or even multiple sequentially) motion primitive sets. I have uploaded some under [./motion_primitives](https://github.com/michaelfeil/commonroad_motionplaner_michaelf/tree/main/motion_primitives)
