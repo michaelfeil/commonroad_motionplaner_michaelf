@@ -2,7 +2,7 @@
 
 Important notes: 
 - this code provides a motion planner as in  [commonroad search repository](https://gitlab.lrz.de/tum-cps/commonroad-search/) (which is licenced under GNU General Public License v3.0.)
-- to *run the code*, pull the [commonroad_search repo](https://gitlab.lrz.de/tum-cps/commonroad-search/-/blob/master/SMP/motion_planner/search_algorithms/student_example.py) and replace the student_example.py. Also follow the instructions of the search repo on how to set up the docker. 
+- to *run the code*, pull the [commonroad_search repo](https://gitlab.lrz.de/tum-cps/commonroad-search/-/blob/master/SMP/motion_planner/search_algorithms/student.py) and replace the student.py. Also follow the instructions of the search repo on how to set up the docker.
 - in case you are a student at TU Munich and participate in TUM Challenge of Techniques in Artificial Intelligence (IN2062), it might be considered plagiatism if you submit parts of this code. no liablity.
 
 ## Performance:
