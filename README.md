@@ -61,7 +61,7 @@ KS2-SM1-ZAM_Zip-1_16_T-1-2020a
 
 ## Answers to Infrequently asked questions (IAQ):
 
-- For ideas, please feel free to contact me or create an issue. (contact details on my [github.io](https://michaelfeil.github.io) )
+- For ideas, please feel free to contact me or create an issue. (contact details on my [website](https://michaelfeil.github.io) )
 - Obviously no weights are tuned in this blueprint 
 - no szenarios types are distinguished. 
 (e.g. in a scenario without goal, a reference path that shows a way to the goal is not as helpful as with goal)
